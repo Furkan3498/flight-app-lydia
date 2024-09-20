@@ -1,0 +1,149 @@
+.admin-container {
+    display: flex;
+    height: 100vh;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background-color: #444;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.admin-container {
+    display: flex;
+    height: 100vh;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sidebar ul li:hover {
+    background-color: #444;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.admin-container {
+    display: flex;
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    padding: 20px;
+    height: 100vh; /* Set the height to fill the entire viewport */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sidebar ul li:hover {
+    background-color: #444;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Optional: Make the main content area scrollable if needed */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling of the main page */
+}
+
+.admin-container {
+    display: flex;
+    height: 100vh; /* Make the container take the full height of the viewport */
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    padding: 20px;
+    height: 100vh; /* Set the height to fill the viewport */
+    overflow-y: auto; /* Enable scrolling for the sidebar only */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sidebar ul li:hover {
+    background-color: #444;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Enable scrolling in the content area if needed */
+}
+
+
+
+
+
+
