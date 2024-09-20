@@ -44,6 +44,6 @@ public class AddressController {
     @DeleteMapping("{id}")
     public ResponseEntity<String> deleteAddress(int id) {
         service.deleteAddress(id);
-        return ResponseEntity.ok("Address deleted successfully.");
+        return ResponseEntity.ok("Address ddeleted successfully.");
     }
 }
